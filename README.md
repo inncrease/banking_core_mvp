@@ -26,16 +26,15 @@ This project is a prototype of a **transactional banking core**. It demonstrates
 
 ### 1. Business Process: Money Transfer (BPMN)
 Visualizes the logic flow including validation gates and error handling.
-![BPMN Diagram](docs/images/bpmn_transfer.png)
-*(Note: Full BPMN model available in `docs/models/`)*
+![BPMN Diagram](docs/images/bankingcore.png)
 
 ### 2. Database Schema (UML Class Diagram)
-Relational model designed for SQLite (easily scalable to PostgreSQL).
-![UML Class Diagram](docs/images/uml_class.png)
+Relational model designed for SQLite.
+![UML Class Diagram](docs/images/structure.drawio.png)
 
 ### 3. API Sequence Diagram
 Technical interaction between Client, API, and Database layers.
-![Sequence Diagram](docs/images/uml_sequence.png)
+![Sequence Diagram](docs/images/sequencebc.drawio.png)
 
 ---
 
@@ -103,5 +102,6 @@ How to Run
 5. Run Analytics (Frontend)
 
     Launch the BI dashboard:
+
 
     python -m streamlit run src/dashboard.py
